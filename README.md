@@ -33,9 +33,9 @@ Aplikasi CLI sederhana menggunakan Node.js dan MySQL (XAMPP) dengan entitas `Boo
    ```
 
 ## Struktur Folder
--./src/application
--./src/data
--./src/infrastructure
--./src/infrastructure/repositories
--./src/interface
--./test
+-  ./src/application
+-  ./src/data
+-  ./src/infrastructure
+-  ./src/infrastructure/repositories
+-  ./src/interface
+-  ./test
