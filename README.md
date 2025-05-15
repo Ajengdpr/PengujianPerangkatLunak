@@ -1,6 +1,6 @@
-# UTS - Pengujian Perangkat Lunak - CLI BREAD App
+# UTS - Pengujian Perangkat Lunak - BREAD Unit Test 2
 
-Aplikasi CLI sederhana menggunakan Node.js dan MySQL (XAMPP) dengan entitas `Book`, menerapkan Clean Architecture dan Unit Test 90%+.
+Aplikasi CLI sederhana menggunakan Node.js dan MySQL (XAMPP) dengan entitas `Book'.
 
 ## Cara Menjalankan
 1. Install dependency:
@@ -10,8 +10,8 @@ Aplikasi CLI sederhana menggunakan Node.js dan MySQL (XAMPP) dengan entitas `Boo
 
 2. Buat database dan tabel:
    ```
-   CREATE DATABASE uts_bread;
-   USE uts_bread;
+   CREATE DATABASE uts_ppkpl;
+   USE uts_ppkpl;
    CREATE TABLE books (
      id INT AUTO_INCREMENT PRIMARY KEY,
      title VARCHAR(100),
@@ -33,10 +33,9 @@ Aplikasi CLI sederhana menggunakan Node.js dan MySQL (XAMPP) dengan entitas `Boo
    ```
 
 ## Struktur Folder
-- models/
-- repositories/
-- services/
-- usecases/
-- test/
-
-Seluruh fitur BREAD ditangani per layer, sesuai clean architecture.
+./src/application
+./src/data
+./src/infrastructure
+./src/infrastructure/repositories
+./src/interface
+./test
